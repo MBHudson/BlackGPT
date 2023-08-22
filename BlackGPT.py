@@ -39,7 +39,7 @@ st.markdown(f'<style>{CSS}</style>', unsafe_allow_html=True)
 def get_persona_files():
     return [f.split(".")[0] for f in os.listdir("personas") if f.endswith(".md")]
 persona_files = get_persona_files()
-selected_persona = st.sidebar.selectbox("👤 𝖲𝖾𝗅𝖾𝖼𝗍 𝖫𝗈𝖼𝖺𝗅 𝖯𝖾𝗋𝗌𝗈𝗇𝖺", ["None"] + persona_files)
+selected_persona = st.sidebar.selectbox("👤 𝖲𝖾𝗅𝖾𝖼𝗍 𝖫𝗈𝖼𝖺𝗅 𝖯𝖾𝗋𝗌𝗈𝗇𝖺", ["Default"] + persona_files)
 persona_files = [f.split(".")[0] for f in os.listdir("personas") if f.endswith(".md")]
 
 
