@@ -30,7 +30,7 @@ img {
 """
 
 st.markdown(f'<style>{CSS}</style>', unsafe_allow_html=True)
-st.sidebar.image('https://raw.githubusercontent.com/MBHudson/BlackGPT/main/imageedit_6_6484887181.png', width=500)
+st.sidebar.image('https://raw.githubusercontent.com/MBHudson/BlackGPT/main/imageedit_6_6484887181.png', width=300)
 #github_logo = ".png"
 #hackGPT_repo = ""
 
