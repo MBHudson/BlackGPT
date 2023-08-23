@@ -30,11 +30,11 @@ img {
 """
 
 st.markdown(f'<style>{CSS}</style>', unsafe_allow_html=True)
-#st.sidebar.image('.png', width=300)
+st.sidebar.image('https://github.com/MBHudson/BlackGPT/blob/main/imageedit_6_6484887181.png', width=500)
 #github_logo = ".png"
 #hackGPT_repo = ""
 
-#st.sidebar.markdown(f"[![GitHub]({github_logo})]({BlaackGPT_repo} 'BlackGPT repo')")
+#st.sidebar.markdown(f"[![GitHub]({github_logo})]({BlackGPT_repo} 'BlackGPT repo')")
 #Persona Setup
 def get_persona_files():
     return [f.split(".")[0] for f in os.listdir("personas") if f.endswith(".md")]
