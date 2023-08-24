@@ -22,7 +22,7 @@ if not openai.api_key:
 
 os.environ['OPENAI_API_KEY'] = openai.api_key
 #st.set_page_config(page_title="BlackGPT", page_icon="https://raw.githubusercontent.com/MBHudson/BlackGPT/main/imageedit_6_6484887181.png"
-openai.api_base = 'https://api.pawan.krd/v1'
+#openai.api_base = 'https://api.pawan.krd/v1'
 
 CSS = """
 img {
